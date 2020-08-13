@@ -1,0 +1,11 @@
+{
+  "commandDescription": "Makes a permission set file containing permissions as set by other flags",
+  "makeobjectsFlagDescription": "grant read only access to all custom objects in org",
+  "logMergeActionAdd": "*** merge: adding %s.%s",
+  "logMergeActionUpdate": "*** merge: updating %s.%s.%s = %s",
+  "logMergeActionNew": "*** merge: new node %s",
+  "errorFileDoesNotExist": "File does not exist '%s'.",
+  "errorPermSetDoesNotExist": "Permission set not found on Org '%s'.",
+  "errorPermSetFileDoesNotExist": "Permission set not found in SFDX project permissions folder '%s'.",
+  "errorInvalidXMLFormat": "Invalid XML format. Not valid Salesforce permission set metadata '%s'."
+}

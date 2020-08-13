@@ -1,0 +1,16 @@
+{
+  "commandDescription": "Merges permission sets and writes to stdout",
+  "permsetFlagDescription": "list of permission set files to merge (or names when using -g or -d); list is comma separated",
+  "formatasprofileFlagDescription": "format output as profile metadata (default is permission set)",
+  "getorgFlagDescription": "look for permission sets on Salesforce org",
+  "getpermsdirFlagDescription": "look for permission sets in the sfdx project permissions folder",
+  "logMergeActionAdd": "*** merge: adding %s.%s",
+  "logMergeActionUpdate": "*** merge: updating %s.%s.%s = %s",
+  "logMergeActionNew": "*** merge: new node %s",
+  "logMergeActionRemove": "*** merge: removing node %s",
+  "logMergeActionConvert": "*** merge: converting profile to permission set prior to merge",
+  "errorFileDoesNotExist": "File does not exist '%s'.",
+  "errorPermSetDoesNotExist": "Permission set not found on Org '%s'.",
+  "errorPermSetFileDoesNotExist": "Permission set not found in SFDX project permissions folder '%s'.",
+  "errorInvalidXMLFormat": "Invalid XML format. Not valid Salesforce permission set metadata '%s'."
+}

@@ -1,0 +1,18 @@
+{
+  "commandDescription": "Compares aggregate permisisons from source list against and target list writing higher permissions contained in target list to stdout ",
+  "permsetsourceFlagDescription": "Source list of permission set files to be compared against target (use permission set names when using -g or -d); list is comma separated",
+  "permsettargetFlagDescription": "Target list of permission set files to be compared against target (use permission set names when using -g or -d); list is comma separated",
+  "getorgFlagDescription": "look for permission sets on Salesforce org",
+  "getpermsdirFlagDescription": "look for permission sets in the sfdx project permissions folder",
+  "tofileFlagDescription": "write differences to file in xml format",
+  "logMergeActionAdd": "*** merge: adding %s.%s",
+  "logMergeActionUpdate": "*** merge: updating %s.%s.%s = %s",
+  "logMergeActionNew": "*** merge: new node %s",
+  "logMergeActionRemove": "*** merge: removing node %s",
+  "logMergeActionConvert": "*** merge: converting profile to permission set prior to merge",
+  "errorFileDoesNotExist": "File does not exist '%s'.",
+  "errorWritingXmlFile": "Error writing XML file, %s",
+  "errorPermSetDoesNotExist": "Permission set not found on Org '%s'.",
+  "errorPermSetFileDoesNotExist": "Permission set not found in SFDX project permissions folder '%s'.",
+  "errorInvalidXMLFormat": "Invalid XML format. Not valid Salesforce permission set metadata '%s'."
+}
