@@ -1,5 +1,5 @@
 {
-  "commandDescription": "Compares aggregate permisisons from source list against and target list writing higher permissions contained in target list to stdout ",
+  "commandDescription": "Compares aggregate permisisons from source list against and target list writing higher permissions in target list to stdout ",
   "permsetsourceFlagDescription": "Source list of permission set files to be compared against target (use permission set names when using -g or -d); list is comma separated",
   "permsettargetFlagDescription": "Target list of permission set files to be compared against target (use permission set names when using -g or -d); list is comma separated",
   "getorgFlagDescription": "look for permission sets on Salesforce org",
